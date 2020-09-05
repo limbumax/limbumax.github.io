@@ -1,0 +1,127 @@
+body {
+
+  text-align: center;
+  background-color: #d8ebb5;
+}
+
+hr  {
+  background-color: #d9bf77;
+  border-style: none;
+  height: 2px;
+  width: 70%;
+}
+
+h1  {
+  color: #639a67;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2  {
+  color: #639a67;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container{
+  background-color: #2b580c;
+  padding: 50px 0 20px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  color: #d8ebb5;
+
+}
+
+.abouttext{
+  width:50%;
+  margin: 50px auto 60px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2b580c;
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #e6b31e;
+  color: black;
+}
+
+.logo
+{
+  top: 0; /* your required value */
+  left: 0;
+  position: fixed;
+}
+
+.logo a {
+
+  top: 0; /* your required value */
+  left: 0;
+  display: block;
+  color: #f2f2f2;
+  padding: 0px 0px;
+
+}
+
+/* CSS */
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  align-content: center;
+  background-color: #d9bf77;
+
+   border: 12px solid;
+   border-color: #d8ebb5;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  grid-row:100px;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
